@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link para o favicon-->
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../estilo/oferta.css">
+  <!--link para o estilo mobile-->
+  <link rel="stylesheet" media="screen and (min-width:375px) and (max-width:667px)"
+    href="../mediaquery/mobileoferta.css">
+     <!--link para o estilo telas medias mobile-->
+  <link rel="stylesheet" media="screen and (min-width:360px) and (max-width:740px)"
+    href="../mediaquery/mobileoferta.css">
+    <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:588px)" href="../mediaquery/mobileoferta.css">
+    <!--tela pequenas-->
+  <link rel="stylesheet" media="screen and (min-width:658px) and (max-width:909px)" href="../mediaquery/tablet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Instituto Politecnico Privado Pedro Pitágoras</title>
+
+</head>
+
+<body>
+  <header>
+    <div id="img">
+      <div id="menu">
+        <div id="logo">
+          <img src="../img/nova_logo-removebg-preview.png" id="log">
+        </div>
+        <button id="btn-mobile" onclick="toggleMenu()"><img src="../img/menu.png" alt=""></button>
+        <ul id="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="colégio.html">sobre nós</a>
+          </li>
+          <li>
+            <a href="ofertas.html">Oferta educativa</a>
+          </li>
+          <li>
+            <a href="secretaria.html">Secretária</a>
+          </li>
+
+          <li class="dropdwon">
+            <a href="" target="_blank">Polos</a>
+            <div class="dropdwonmenu">
+              <a href="index.html" style="color: #203346;">Morro Bento</a>
+              <a href="Error404.html" target="_blank">Nice</a>
+              <a href="Error404.html" target="_blank">Kikuxi</a>
+            </div>
+          </li>
+          <li>
+            <a href="../php/login.php">Entrar</a>
+          </li>
+          <li>
+            <a href="../php/confirmação.php"><button type="button" id="matri" class="btn btn-outline-secondary">COMFIRMAÇÃO</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <h3 class="efeito1">Dê o brilho que preocuras para o seu futuro</h3>
+    </div>
+
+  </header>
+
+  <main class="conteiner">
+
+
+    <div id="ofertamon">
+
+
+      <P class="text"> Explore dentre as nossas ofertas educativas e comece a sua jornada junto a sua profissão de
+        sonhos dando assim o brilho que preocuras para o teu futuro.</P>
+      <!--  <P id="doc">
+          DECLARAÇÃO OU CERTIFICADO DE HABILITAÇÃO, CÓPIA DO B.I OU CÉDULA PESSOAL DO ALUNO E DO ENCARREGADO,CARTÃO DE VACINA,
+          ATESTADO MÉDICO, TRÊS  FOTOGRAFIAS TIPO PASSE.<br>
+         <STRong>OBS: ACEITAMOS MATRÍCULAS CONDIONADAS COM DURAÇÃO 45 DIAS,EM CASO DE DOCUMENTO INCOMPLETOS.</STRong>
+      </P>-->
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/infor.jpg" style="height: 211px;" class="card-img-top" alt="Informática">
+            <div class="card-body">
+              <h5 class="card-title">T.Informática</h5>
+              <p class="card-text">os alunos mergulham nas complexidades dos sistemas operacionais, programação e arquitetura de computadores. Eles aprendem a escrever a, aplicativos criar e entender os fundamentos da tecnologia da informação, preparando para desbravar o mundo digital.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/contab.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">G.de Sistemas Informática</h5>
+              <p class="card-text"> os alunos sem em estratégias de gestão de gestão de TI, segurança e administração de rede. Os Eles adquirem habilidades para equipas coordenar e garantir um despessamento dos sistemas de informação em diferentes ambientes organizacionais.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/fi.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">T.Finanças</h5>
+              <p class="card-text"> Os aspirantes a Técnicos de Finanças exploram  análise de investimentos e tributário. Eles dominam de ferramentas de gestão financeira e contábil, preparando-para auxiliar empresas na de decisões de decisões estratégicas e na da garantia de conformidade legal.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/contb.jpg" style="height: 211px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Contabilidade e Gestão</h5>
+              <p class="card-text">Os aspirantes a Técnicos deContabilidade exploram os análise de investimentos e tributário. Eles dominam de ferramentas de gestão financeira e contábil, preparando-para auxiliar empresas na de decisões de decisões estratégicas e na da garantia de conformidade legal.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/social2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Comunicação Social</h5>
+              <p class="card-text"> os estudantes exploram os meandros da comunicação visual, escrita e audiovisual. Eles aprendem a criar conteúdo persuasivo, a entende-se conteúdos persuasivos, a entende-se de diferentes públicos e a ferramentas de mídia para mensagens para transmitir, moldando a em narrativa diversas.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="../pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/mecanica.webp" class="card-img-top" alt="MECANICA">
+            <div class="card-body">
+              <h5 class="card-title">MECANICA</h5>
+              <p class="card-text">Os alunos de Mecânica mergulham nos princípios da estudar, física de máquinas, o sistemas sistemas mecânicos. Eles desenvolvem habilidades práticas em manutenção, e reparação montagem de equipamentos, se preparando para atuar em indústrias automobilísticas, de e de aviação em geral.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/construção.webp" class="card-img-top" alt="construção civil">
+            <div class="card-body">
+              <h5 class="card-title">Construção Civil</h5>
+              <p class="card-text">os futuros profissionais  aprendem os processos de planejamento, execução e gestão de obras. Eles dominam técnicas de construção, normas de segurança e sustentabilidade ambiental, para o contribuindo o desenvolvimento de infraestrutura urbana e rural.</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../img/electonica.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Electronica & Telecomunicação</h5>
+              <p class="card-text">Os estudantes de Eletrônica e Telecomunicação exploram os circuitos elétricos, dispositivos semicondutores e sistemas de sistemas de comunicação. Os anos de consumo de redes detelecomunicações, telecomandos e dispositivos eletrônicos para área de empresa de  telecomunicações, industrial e automação .</p>
+            </div>
+            <div class="card-footer" id="card-footer">
+              <small class="text-muted"><a href="pre-incrição.html">Saiba mais</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </main>
+
+  <footer>
+
+    <div id="contacte">
+      <h2>Contacte-nos</h2>
+      <ul>
+        <li><span>tel:</span> (+244) 925483409</li>
+        <li><span>tel:</span> (+244) 925483409</li>
+        <li>grupoescolarpedropitagoras@gmail</li>
+      </ul>
+    </div>
+    </div>
+
+
+    <hr>
+    <div id="rede">
+
+      <div id="copyright">
+        <p>copyright© 2023 BartolomeuNS</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="../scrips/texto.js"></script>
+</body>
+
+</html>

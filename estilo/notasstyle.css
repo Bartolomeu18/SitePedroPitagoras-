@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;   
+
+}
+body{
+
+  background: linear-gradient(to top right, #D96D1E, #2D2C71);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.header {
+    padding-top: 15px;
+    text-align: center;
+    width: 40%;
+    color: white;
+}
+
+.sexo-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sexo h3 {
+    margin-left: 21px;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 51%;
+    border-radius: 9px;
+   background-color: rgba(245, 245, 245, 0.153);
+
+}
+#P{
+   margin-left: 15PX;
+   margin-top: 9px;
+    color: whitesmoke;
+}
+.form-conteiner {
+    display:flex;
+     justify-content: space-between;
+     width: 100%;
+
+   
+     
+    }
+    #lançar{
+text-align: center;
+margin-top: 50px;
+color: whitesmoke;
+        }
+form {
+    margin: auto;
+
+    width: 100%;
+}
+
+label {
+    display: block;
+    justify-content: center;
+    font-weight: 300px;
+    font-size: larger;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgb(206, 204, 204);
+    border: 2px solid  #93523F;
+}
+
+input:hover {
+    border: 2px solid #0EA05F;
+}
+#enviar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.Encarregado{
+   width: 50%;
+  /* background-color: rgba(245, 245, 245, 0.153) ;
+   */
+
+    }
+
+
+#Masculino {
+    width: 15px;
+}
+
+#Feménino {
+    width: 15px;
+}
+
+#class {
+    margin-bottom: 20px;
+}
+
+/*input para comprovativos*/
+#Descarregar {
+    text-align: center;
+    display: block;
+    background-color: rgb(206, 204, 204);
+    border: 1px solid #0EA05F;
+    color: #93523F;
+    margin-left: 9px;
+    margin-top: 25px;
+    width: 70%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+}
+#Descarregar:hover {
+    background-color: #39316B ;
+    border: 1px solid #93523F;
+    color: #0EA05F;
+    transition: .5s;
+}
+  
+#fil {
+    display: none;
+}
+/*botão Enviar*/
+#enviar{
+    margin-left: 40%;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #39316B ;
+    border: 1px solid #0EA05F;
+    color: #93523F;
+}
+#enviar:hover{
+    border: 1px solid #93523F;
+    color: #0EA05F;
+    transition: .5s;
+}
+p{
+    transition: .5s;
+    display: none;
+   color: rgb(250, 28, 28);
+   margin-left: 10px
+}

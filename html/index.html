@@ -1,0 +1,230 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link para o favicon-->
+  <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../estilo/style.css">
+  <link rel="stylesheet" media="screen and (min-width:375px) and (max-width:667px)" href="../mediaquery/mobile.css">
+  <!--telefones normais-->
+  <link rel="stylesheet" media="screen and (min-width:360px) and (max-width:740px)" href="../mediaquery/mobile.css">
+  <!--tela igual galaxy s8+-->
+  <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:588px)" href="../mediaquery/mobile.css">
+  <!--tela pequenas-->
+  <link rel="stylesheet" media="screen and (min-width:658px) and (max-width:909px)" href="../mediaquery/tablet.css">
+  <!--tabletes mine-->
+  <link rel="stylesheet" media='screen and  (min-width:662px;) and (max-width:988px;)' href="../mediaquery/tablet2.css">
+  <!--ipads-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Instituto Politecnico Privado Pedro Pitágoras</title>
+
+</head>
+
+<body>
+  <header>
+    <div id="img">
+      <div id="menu">
+        <div id="logo">
+          <img src="../img/nova_logo-removebg-preview.png" id="log">
+        </div>
+        <button id="btn-mobile" onclick="toggleMenu()"><img src="../img/menu.png" alt=""></button>
+        <ul id="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="colégio.html">sobre nós</a>
+          </li>
+
+          <li>
+            <a href="ofertas.html">Oferta educativa</a>
+          </li>
+          <li>
+            <a href="secretaria.html">Secretária</a>
+          </li>
+          <li class="dropdwon">
+            <a href="" target="_blank">Polos</a>
+            <div class="dropdwonmenu">
+              <a href="index.html" style="color: #203346;">Morro Bento</a>
+              <a href="Error404.html" target="_blank">Nice</a>
+              <a href="Error404.html" target="_blank">Kikuxi</a>
+            </div>
+          </li>
+          <li>
+            <a href="Noticias.html"><button type="button" id="matri" class="btn btn-outline-secondary">Notícias & Eventos</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="texto" class="efeito1">
+        <h3>Bem-vindo ao "Altar do Saber"</h3>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="welcome">
+      <div id="img1">
+        <img src="../img/imgcol-6Q_HQt7kf-transformed.jpeg" alt="">
+      </div>
+      <div id="cont">
+        <h3>A SUA JORNADA RUMO AO SUCESSO COMEÇA AQUI.</h3>
+        <p> O Colégio Pedro Pitágoas é uma instituição que tem como missão, prestar á comunidade um serviço educativa de
+          excelência contribuindo para a formação de cidadãos críticos e concientes dos seus devers e direitos, capaz de
+          actuar como agentes de mundança,
+          em um ambiente participativo, aberto e intergrador.</p>
+        <div id="quat">
+          <div class="quant">
+            <h2 class="num" data-val="+700">+700</h2>
+            <p style="font: weight 90px;; color: black;">Alunos</p>
+          </div>
+          <div class="quant">
+            <h2 class="num" data-val="+40">+40</h2>
+            <p style="font: weight 90px; color: black;">Professores</p>
+          </div>
+          <div class="quant">
+            <h2 class="num" data-val="+3">+3</h2>
+            <p style="font: weight 90px; font-size: x-larger; color: black;">Escolas</p>
+          </div>
+        </div>
+      </div>
+      <div id="img2" class="efeito1">
+        <img src="../img/imgcol-6Q_HQt7kf-transformed.jpeg" alt="">
+      </div>
+    </div>
+    <div id="inde">
+      <h3>INDECISO SOBRE O SEU FUTURO? </h3>
+      <p>pesquise na nossa oferta formativa o que temos para si</p>
+    </div>
+    <div class="indecard">
+      <div class="conteiner">
+        <div class="row g-4">
+
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card">
+              <img src="../img/infor.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Técnico Informático</h5>
+                <p class="card-text">os alunos mergulham nas complexidades dos sistemas operacionais, programação de e arquitetura de computadores. Eles aprendem a escrever a, aplicativos criar e entende-se os fundamentos da tecnologia da informação, preparando para desbravar o mundo digital.</p>
+              </div>
+              <div class="card-footer" id="card-footer">
+                <small class="text-muted"><a href="./ofertas.html">VER MAIS</a></small>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card">
+              <img src="../img/contb.jpg" style="height: 200px;" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Contabilidade & Gestão</h5>
+                <p class="card-text">Os alunos exploram os da contabilidade financeira, análise de investimentos e tributário. Eles dominam de ferramentas de gestão financeira e contábil, preparando-para auxiliar empresas na de decisões de decisões estratégicas e na da garantia de conformidade legal.</p>
+              </div>
+              <div class="card-footer" id="card-footer">
+                <small class="text-muted"><a href="./ofertas.html">VER MAIS</a></small>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6  col-lg-4">
+            <div class="card">
+              <img src="../img/mecanica.webp" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Mecânica</h5>
+                <p class="card-text">Os alunos de Mecânica mergulham nos princípios da estudar, física de máquinas, o sistemas sistemas mecânicos. Eles desenvolvem habilidades práticas em manutenção, e reparação montagem de equipamentos, se preparando para atuar em indústrias automobilísticas.</p>
+              </div>
+              <div class="card-footer" id="card-footer">
+                <small class="text-muted"><a href="./ofertas.html">VER MAIS</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="location">
+      <h3>CONHEÇA A NOSSA LOCALIZAÇÃO📍</h3>
+      <p class="text"> Estamos localizados na Avenida PEDRO DE CASTRO VAN-DÚNEM LOY, Zona mundo verde-Talatona/Morro Bento II , detrás dos bancos (BIC,SOL,BPC)</p>
+ <div id="mapa2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7518791123453!2d13.194975913214106!3d-8.902644391306751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f5264a54380d%3A0xb61307516acf8e6!2sCol%C3%A9gio%20Pedro%20Pit%C3%A1goras!5e0!3m2!1spt-PT!2sao!4v1685091659559!5m2!1spt-PT!2sao"
+          width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" id="mapa"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7518791123453!2d13.194975913214106!3d-8.902644391306751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f5264a54380d%3A0xb61307516acf8e6!2sCol%C3%A9gio%20Pedro%20Pit%C3%A1goras!5e0!3m2!1spt-PT!2sao!4v1685091659559!5m2!1spt-PT!2sao">seu navegador não é compativel com o iframe acesse o link para ver a locazação</a></iframe>
+      </div>
+      <!--noticia
+      <div id="new">
+        <h3>Pitagoras News</h3>
+        <p class="card-text">Mantendo a nossa comunidade escolar conectada e informada. Educação em ação, notícias em movimento.</p>
+      </div>
+      <div id="bcard" class="efeito1">
+        <div id="leg">
+          <h5>Inico das aulas praticas</h5>
+          <p class="card-text">Alunos da comunicação social são resonsavel ela abertora do novo programa escolar
+            demominado "Pitag o desenvolvimento do pontencial criador do aluno e a disseminação da cultura.</p>
+        </div>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-2 g-4" id="newcard">
+       <div class="efeito1">
+         <div class="col" >
+          <div id="card" >
+            <img src="../img/not.jpg" class="card-img-top" alt="...">
+            <div id="card-body">
+              <h5 class="card-title">Pitágoras Cast</h5>
+              <p class="card-text">Alunos da comunicação social são resonsavel ela abertora do novo programa escolar
+                demominado "Pitagoras cast" que tera como objectivo exercitar a
+                comunicação e dialogo por parte do o aluno já conhece,estimular as pesquisa, o contacto com as
+                diferentes linguagens, o desenvolvimento do pontencial criador do aluno e a disseminação da cultura.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="efeito1" style="transition-delay: 400ms;">
+          <div class="col" >
+          <div id="card" >
+            <img src="../img/not3.jpg" height="200px" class="card-img-top" alt="...">
+            <div id="card-body" class="card-body">
+              <h5 class="card-title">Feira Cultural 2023</h5>
+              <p class="card-text">Na manhã desta quarta-feira 21 de Junho de 2023, realizou-se a Feira Cultural. Com o
+                lema: África ontem, Hoje e Amanhã.
+                Organizada pelo Colégio Pedro Pitágora em colaboração com os estudantes da CONGEST(Contabilidade e
+                Gestão), onde representaram o primeiro e antigo Império da África Ocidental (Ghana).</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </div>-->
+  </main>
+  <footer>
+    <div id="contacte">
+      <h2>Contacte-nos</h2>
+      <ul>
+        <li><span>tel:</span> (+244) 925483409</li>
+        <li><span>tel:</span> (+244) 925483409</li>
+        <li>grupoescolarpedropitagoras@gmail</li>
+      </ul>
+    </div>
+    </div>
+
+
+    <hr>
+    <div id="rede">
+
+      <div id="copyright">
+        <p>copyright© 2024 BartolomeuNS</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../scrips/texto.js"></script>
+</body>
+
+</html>

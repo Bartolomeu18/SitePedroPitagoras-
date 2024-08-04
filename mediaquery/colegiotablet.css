@@ -1,0 +1,69 @@
+/*menu res-botão*/
+#btn-mobile {
+  background-color: #D46B20;
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  z-index: 1;
+  border-style: none;
+  border-radius: 5px;
+  outline: none;
+
+}
+#btn-mobile.btnactive{
+  background-color:white;
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  z-index: 1;
+  border-style: none;
+  border-radius: 5px;
+  outline: none;
+  transition: .5s;
+}
+#menu ul {
+  display: none;
+  padding: 10px;
+  padding-top: 10px;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.9);
+
+}
+
+#menu li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#menu.active ul {
+  display: block;
+
+}
+
+#welcome {
+  display: block;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+}
+
+#welcome ul {
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+}
+
+#welcome #cont {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+}

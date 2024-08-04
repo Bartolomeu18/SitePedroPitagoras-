@@ -1,0 +1,152 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: linear-gradient(to top right, #D96D1E, #2D2C71);
+    background-repeat: no-repeat; 
+    background-size:cover ;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom:50%;
+    border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0.153);
+}
+/* estilo da pagina  de error  404*/
+.conteiner h1{
+    margin-top:20% ;
+    color:#1D2D44 ;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 115px;
+}
+.conteiner h2, h3{
+    color:#1D2D44 ;
+    text-align: center;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+#admin_log{
+    text-decoration: none;
+    color:#1D2D44 ;
+    text-align: center;
+    font-size: xx-large;
+}
+.conteiner #img {
+    width: 20%;
+    height: 100px;
+    border-radius: 50%;
+}
+.conteiner2 {
+    text-align: center;
+}
+#voltar{
+    margin: auto;
+    font-size: larger;
+    padding: 05px 25px 05px 25px;
+    border: 1px solid #39316B;
+    border-radius: 5px;
+    color: #39316B;
+    background: none;
+}
+#voltar:hover{
+    background-color: #39316B ;
+    border: 1px solid #93523F;
+  
+    transition: .5s;
+}
+#voltar a{
+     text-decoration: none;
+     color: #39316B;
+}
+#voltar a:hover{
+    text-decoration: none;
+     color: #0EA05F;
+}
+
+/*acabou aqui*/
+.conteiner-header{
+        padding-top: 15px;
+        text-align: center;
+        width: 50%;
+        color: white;
+}
+.conteiner-header img{
+    width: 200px;
+    border-radius: 50%;
+}
+#login{
+    padding-bottom: 25px;
+
+}
+.conteiner-body{
+    width: 50%;
+    align-items: right;
+    border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0.153);
+    padding-top: 10px;
+    display: block;
+}
+
+form {
+    margin: auto;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    justify-content: center;
+    font-weight: 300px;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+
+input {
+    margin-left: 10px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(206, 204, 204);  
+    border: 2px solid #93523F;
+}
+
+input:hover {
+    border: 2px solid #0EA05F;
+    transition: .5s;
+}
+.entrar{
+    margin-left: 25px;
+    margin-top:25px ;
+    margin-bottom: 10px;  
+}
+/*botão Entrar*/
+#entrar{
+
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #39316B ;
+    border: 1px solid #0EA05F;
+    color: #93523F;
+}
+#entrar:hover{
+    border: 1px solid #93523F;
+    color: #0EA05F;
+    transition: .5s;
+}
+

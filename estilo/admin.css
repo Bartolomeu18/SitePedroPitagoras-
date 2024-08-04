@@ -1,0 +1,565 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(to left, #D96D1E, #2D2C71);
+
+}
+
+header {
+  width: 30%;
+  /* background-color: #0EA05F;*/
+}
+main {
+text-align: center;
+}
+.menu-mobile{
+  display: none;
+}
+.menu-lateral {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 110vh;
+ /* background-color: rgb(223, 223, 223);*/
+
+  border-right: 2px solid silver;
+  margin-bottom: 9px;
+}
+.menu-lateral img {
+  margin-top: 10px;
+}
+
+.menu-lateral h3 {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+.menu-itens {
+  display:flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 2%;
+  padding: 5px;
+}
+
+.itens {
+ background-color: whitesmoke;
+ /*border: 2px solid #0EA05F;*/
+ border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  padding: 13px;
+  transition: .3s;
+}
+.itens:hover  {
+  transition: .2s;
+  transform: scale(1.1);
+  
+}
+.itens:hover  i{
+  transform: scale(1.1); 
+   color: #0EA05F;
+}
+i{
+  font-size: larger;
+}
+span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.itens a {
+  font-size: larger;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.itens a:hover {
+  color: #0EA05F;
+}
+
+main {
+  width: 70%;
+  /* background: linear-gradient(to bottom, #d96c1e4c, #2d2c7184);*/
+}
+
+.body {
+  width: 100%;
+}
+
+.body-conteiner {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.img-conteiner {
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+/*estilo da foto do aluno*/
+#alunoimg {
+  width: 200px;
+  border-radius: 50%;
+  border:2px solid white;
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 200px;
+}
+
+.aluno {
+  align-items: center;
+  /*background-color: bisque;*/
+  width: 70%;
+  height: 100%;
+}
+#btn-mobile{
+display:none;
+}
+/*estilo das mine informações do perfil*/
+.mine-inf {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#nome{
+  margin-left: 35px;
+}
+   /* Estilo básico para a barra de pesquisa */
+   form{
+    margin-top: 25px;
+    text-align: center;
+   }
+   #search {
+    margin-left: 0;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    
+}
+
+/* Estilo para o botão de pesquisa */
+#search-button {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #39316B ;
+    border: 1px solid #0EA05F;
+    color: #93523F;
+
+}
+#search-button:hover{
+    border: 1px solid #93523F;
+    color: #0EA05F;
+    transition: .5s;
+}
+.user{
+    box-sizing: border-box;
+    display: flex;
+justify-content: center;
+    gap: 22px;
+    align-items: center;
+   /* margin-top: 10px;*/
+   padding-top: 20px;
+    padding-bottom: 10px;
+}
+.user_2{
+    box-sizing: border-box;
+    display: flex;
+   justify-content: center;
+    gap: 22px;
+    align-items: center;
+   /* margin-top: 10px;*/
+   padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.user_itens{
+  background: linear-gradient(to bottom left, rgba(105, 94, 144, 0.9), #2d2c71a3);
+    color:white;
+    height: 100px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+    box-shadow: 1px 03px 1px rgb(66, 59, 59);
+}
+.user_itens:hover{
+  transform: scale(1.1) ;
+transition: 1.5s ;
+}
+.user_itens p a{
+ text-decoration: none;
+ color: white;
+}
+#menu-mobile{
+  display: none;
+}
+
+.conteudo {
+  background-color:rgb(240, 240, 240);
+    display:none;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #conteudo h3{
+  top: 50%;
+  }
+
+  
+  .table-responsive{
+  background:linear-gradient(to top left , #d96c1ed8, #2d2c71d8);
+  border-radius:5px ;
+
+}
+#content {
+  margin: auto;
+  border-radius: 5px;
+  width: 80%;
+  background-color: rgba(192, 192, 192, 0.442);
+}
+#add_back.on{
+   display: block;
+}
+@keyframes showadd{
+  form{
+    opacity: 0;
+    transform: translate3d(0,-20px,0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+#add_back{
+  display:none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5) ;
+}
+#add_usuario{
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 70%;
+  height: 50%;
+  background: linear-gradient(to bottom left, rgba(192, 192, 192, 0.9),#2d2c71a3, #2d2c71a3);
+  border-radius:5px ;
+  text-align: center;
+}
+#x_circle{
+  color: red;
+  position: absolute;
+  right: -1%;
+  top: -5%;
+  cursor: pointer;
+}
+
+#add_usuario i{
+  font-size: x-large;
+}
+#add_usuario h3{
+  color: rgb(210, 208, 208);
+  padding-top: 30px;
+}
+#add_usuario button{
+  background: linear-gradient(to bottom left, rgba(192, 192, 192, 0.9), #ce6a23a3,  #CE6923);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+}
+#add_usuario button a{
+  text-decoration: none;
+  color:#2d2c71a3;
+}
+.on #add_usuario{
+  animation: showadd .9s;
+}
+.menu-lateral{
+  text-align: center;
+}
+.menu-lateral img{
+  width: 40%;
+
+}
+  /*estilo da area de notificações*/
+  
+  .container {
+    width: 40%;
+    background-color: rgba(245, 245, 245, 0.397);
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  .container h2 {
+color: #0EA05F;
+  }
+  .container button {
+    width: 38%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #39316B ;
+    border: 1px solid #93523F;
+    color:#0EA05F ;
+  }
+  #matri{
+    color: #39316B ;
+    border: 1px solid #39316B;
+    }
+    .container button:hover{
+      background-color: #39316B ;
+      border: 1px solid #0EA05F;
+      color: #93523F;
+      transition: .5s;
+    }
+    .form-row{
+      display:block;
+    }
+    #enviar{
+      padding-top: 15px;
+      margin-top: 20px;
+    }
+    .col{
+      padding-top:20px;
+    }
+    textarea{
+      width: 200px;
+       height: 150px; 
+       resize: none;
+       margin-top: 10px;
+    }
+  
+    .form-group{
+      margin-top: 10px;
+    }
+  
+  .input {
+    margin-left: 10px;
+    padding: 10px;
+    width: 70%; 
+   outline: none;
+    border:none;
+    border-bottom: 1px solid #0EA05F;
+    /*color: rgb(154, 152, 152);*/color: black;
+    background: none;
+  }
+
+  .inputmail {
+    margin-left: 10px;
+    padding: 10px;
+    width: 70%; 
+   outline: none;
+    border:none;
+    /*color: rgb(154, 152, 152);*/color: black;
+    border-bottom: 1px solid #0EA05F;
+    background: none;
+  }
+  .form-control {
+    text-align: center;
+    color: #203346;
+  }
+  
+  #Perguntas {
+    color: #2D2C71;
+    font-size: bold;
+  }
+  
+  .caixa-conteiner {
+    display: block;
+    margin-left:15%;
+    margin-bottom: 30px;
+    width: 65%;
+  }
+  /*estilo para o modal das notificações do (coordenadores_dashboard) para os prfessores*/
+  .modal_not {
+    background-color: rgba(202, 201, 201, 0.856);
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top:0%;
+  }
+  .modal_not button{
+    width: 38%;
+    margin: auto;
+    padding: 10px;
+    background-color: #39316B ;
+    border: 1px solid #93523F;
+    border-radius:6px ;
+    color:#0EA05F ;
+  }
+  .modal_not button:hover{
+    background-color: #39316B ;
+    border: 1px solid #0EA05F;
+    color: #93523F;
+    transition: .5s;
+  }
+  /*cadastro modal*/
+  .efeito1 {
+    opacity: 0;
+    transition: all 4s;
+
+    transform: translatey(1%);
+  }
+  
+  .efeito01 {
+    opacity: 1;
+    transition: all 4s;
+    transform: translatey(0);
+  }
+
+  #cadastro_modal {
+    display: none  ;
+  background-color:rgba(240, 240, 240, 0.897);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding: 15px;
+  position:absolute;
+  top: 50px;
+  left: 35%;
+}
+#cadastro_modal a{
+
+ text-decoration:none ;
+ color: #203346;
+ border-radius: 5px;
+ margin: 10px;
+ font-size: larger;
+ display: flex;
+ align-items: center;
+}#cadastro_modal a:hover{
+  color: #203346;
+}
+#cadastro_modal p{
+  margin: auto;
+
+  background: linear-gradient(to bottom left, rgba(105, 94, 144, 0.9), #2d2c71a3);
+ text-align: center;
+ border-radius:10px ;
+ width: 55%;
+}
+#closi{
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  position: relative;
+  top: -20px;
+  right: -50%;
+}
+
+.modal_body{
+display: flex;
+justify-content: space-around;
+gap: 5px;
+ }
+ .frist{
+  width: 50%;
+flex-direction: column;
+position: relative;
+top: 0;
+left: 0;
+   }
+   
+/*estilo do inuts para arquivos materia*/
+.form-conteiner-materia{
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  height:100%;
+  width: 100%;
+  background:linear-gradient(to top left , #d96c1ed8, #2d2c71d8);
+
+}
+.form-conteiner-materia h2{
+ color: #0ea05ed0;
+
+}
+
+.form-conteiner-materia label{
+  text-align: center;
+  display: block;
+  margin: auto;
+  background-color: #39316B ;
+  color:#93523F ;
+  border: 1px solid #0EA05F;
+  padding: 10px;
+  width: 200px;
+ border-radius: 6px;
+ cursor: pointer;
+ transition: .5s;
+}
+.form-conteiner-materia label:hover{
+  background-color: #39316B ;
+  border: 1px solid #93523F;
+  color: #0EA05F;
+  transition: .5s;
+}
+
+.form-conteiner-materia input{
+display: none;
+}
+
+.form-conteiner-materia button{
+  
+  background-color: #39316B ;
+  color:#0EA05F ;
+  border: 1px solid #93523F;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.form-conteiner-materia button:hover{
+  background-color: #39316B ;
+  border: 1px solid #0EA05F;
+  color: #93523F;
+  transition: .5s;
+}

@@ -1,0 +1,66 @@
+.modal {
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: #2D2C71;
+    background: linear-gradient(to left, #D96D1E, #2D2C71);
+
+  }
+  
+  .modal-content {
+    background-color: rgba(245, 245, 245, 0.153);
+
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 70%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #studentId{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #93523F;
+    outline: none;
+  }
+  #studentId:hover{
+    border: 1px solid #93523F;
+  }
+  /*botão Entrar*/
+  #submitBtn{
+
+ padding: 5px;
+  border-radius: 5px;
+  background: #39316B ;
+  border: 1px solid #0EA05F;
+  color: #93523F;
+}
+#submitBtn:hover{
+  border: 1px solid #93523F;
+  color: #0EA05F;
+  transition: .5s;
+}
+
+
+  button a{
+    text-decoration: none;
+    color: #2D2C71;
+  }

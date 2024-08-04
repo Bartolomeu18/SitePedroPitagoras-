@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link para o favicon-->
+  <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../estilo/Noticias.css">
+  <link rel="stylesheet" media="screen and (min-width:375px) and (max-width:667px)" href="../mediaquery/mobilemoticia.css">
+  <!--telefones normais-->
+  <link rel="stylesheet" media="screen and (min-width:360px) and (max-width:740px)" href="../mediaquery/mobilemoticia.css">
+  <!--tela igual galaxy s8+-->
+  <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:588px)" href="../mediaquery/mobilemoticia.css">
+  <!--tela pequenas-->
+  <link rel="stylesheet" media="screen and (min-width:658px) and (max-width:909px)" href="../mediaquery/tablet.css">
+  <!--tabletes mine-->
+  <link rel="stylesheet" media='screen and  (min-width:662px;) and (max-width:988px;)' href="../mediaquery/tablet2.css">
+  <!--ipads-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Instituto Politecnico Privado Pedro Pitágoras</title>
+
+</head>
+<header>
+        <div id="menu">
+          <div id="logo">
+            <img src="../img/nova_logo-removebg-preview.png" id="log">
+          </div>
+          <button id="btn-mobile" onclick="toggleMenu()"><img src="../img/menu.png" alt=""></button>
+          <ul id="nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="colégio.html">sobre nós</a>
+            </li>
+  
+            <li>
+              <a href="ofertas.html">Oferta educativa</a>
+            </li>
+            <li>
+              <a href="secretaria.html">Secretária</a>
+            </li>
+            <li class="dropdwon">
+              <a href="" target="_blank">Polos</a>
+              <div class="dropdwonmenu">
+                <a href="index.html" style="color: #203346;">Morro Bento</a>
+                <a href="Error404.html" target="_blank">Nice</a>
+                <a href="Error404.html" target="_blank">Kikuxi</a>
+              </div>
+            </li>
+            <li>
+              <a href="Noticias.html"><button type="button" id="matri" class="btn btn-outline-secondary">Notícias & Eventos</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/noticia05.jpg" class="d-block w-100  " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/04.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/noticia04.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+  <p id="NOTEMDES"><SPan>Notícias</SPan> | Em Destaque</p>
+  <section class="Destaque">
+    <div class="card bg-dark text-white" id="fristDeConteiner">
+      <img src="../img/04.jpg" class="card-img" alt="..." id="fristDestaque">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+   
+   <!-- <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/noticia03.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+
+        </div>
+      </div>
+    </div>-->
+    <div class="segDestaque">
+      <img src="../img/notici1.jpg" id="segImgDest" alt="">
+      <div id="content">
+          <div class="card-body" id="card_body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text" id="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+      </div>
+    </div>
+  </section>
+    <main>
+   <p id="NOTEMDES"><SPan>Notícias</SPan> (Ver mais)</p>
+    <section class="segundalinha">
+  <!--Noticias ver mais(antigas)-->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia02.jpg" class="card-img-top" id="img_size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut quo vitae odit amet, eum repudiandae dicta ad praesentium nam. Voluptate harum aperiam modi voluptatum eius alias laborum aspernatur inventore?</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia03.jpg" class="card-img-top" id="img_size"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, excepturi. Optio ducimus facere quia labore quidem quis hic pariatur similique quae tempora, officia temporibus dolores ipsa a natus illo cum..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia04.jpg" class="card-img-top" id="img_size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptate expedita harum fuga obcaecati non? Maiores est voluptatibus expedita labore aspernatur ea velit fugit. Cum unde eveniet hic quidem repudiandae..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Noticias ver mais(antigas)-->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="row2">
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia02.jpg" class="card-img-top" id="img_size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut quo vitae odit amet, eum repudiandae dicta ad praesentium nam. Voluptate harum aperiam modi voluptatum eius alias laborum aspernatur inventore?</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia03.jpg" class="card-img-top" id="img_size"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, excepturi. Optio ducimus facere quia labore quidem quis hic pariatur similique quae tempora, officia temporibus dolores ipsa a natus illo cum..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../img/noticia04.jpg" class="card-img-top" id="img_size" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptate expedita harum fuga obcaecati non? Maiores est voluptatibus expedita labore aspernatur ea velit fugit. Cum unde eveniet hic quidem repudiandae..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+
+</main>
+<footer>
+  <div id="contacte">
+    <h2>Contacte-nos</h2>
+    <ul>
+      <li><span>tel:</span> (+244) 925483409</li>
+      <li><span>tel:</span> (+244) 925483409</li>
+      <li>grupoescolarpedropitagoras@gmail</li>
+    </ul>
+  </div>
+  </div>
+
+
+  <hr>
+  <div id="rede">
+
+    <div id="copyright">
+      <p>copyright© 2024 BartolomeuNS</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../scrips/texto.js"></script>
+</body>
+
+</html>

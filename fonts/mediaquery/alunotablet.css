@@ -1,0 +1,46 @@
+.menu-itens {
+  display:flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: 2%;
+  padding: 5px;
+}
+
+.body {
+    width: 100%;
+  }
+  
+  .body-conteiner {
+    display:block;
+    align-items: center;
+    width: 100%;
+  
+  }
+  
+  .img-conteiner {
+    width: 100%;
+  display: block;
+  text-align: center;
+  }
+  
+  
+  /*estilo da foto do aluno*/
+  #alunoimg {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;  
+    margin-left: 27%;
+    border: 3px solid white;
+  }
+  
+  .aluno {
+    align-items: center;
+    width:100%;
+    height: 100%;
+  }
+  .menu-mobile{
+    display: none;
+  }.itens {
+     margin-bottom: 45px;
+   }
+   

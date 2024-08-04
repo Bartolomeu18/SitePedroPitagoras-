@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#img {
+  background-image: url(../img/img-swiper1-transformed.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 3px transparent #F6BB3D;
+  width: 100%;
+  height: 595px;
+  margin: auto;
+
+}
+
+#img h3 {
+  margin-top: 250px;
+  color: whitesmoke;
+  font-weight: normal;
+  font-size: xx-large;
+  text-align: center;
+
+}
+
+.efeito1 {
+  opacity: 0;
+  transition: all 4s;
+  transform: translate(1%);
+
+}
+
+.efeito01 {
+  opacity: 1;
+  transition: all 4s;
+  transform: translate(0);
+}
+
+p {
+  font-weight: normal;
+}
+
+#log {
+  padding-left: 10%;
+  margin-left: 5%;
+  width: 90px;
+  border-radius: 50%;
+
+}
+
+#logo {
+  display: flex;
+
+}
+
+#logo h3 {
+  font-weight: normal;
+  font-size: xx-large;
+  padding-top: 40px;
+  color: white;
+}
+
+#login {
+  margin-left: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#menu {
+  display: flex;
+  /* barra amarela do menu*/
+  width: 100%;
+  height: 85px;
+  background: linear-gradient(to left, #D96D1E, #2D2C71);
+
+  justify-content: space-between;
+
+}
+
+#btn-mobile {
+  display: none;
+}
+
+#menu ul {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  padding-top: 10px;
+
+}
+
+#menu a {
+  color: white;
+  content: " ";
+  width: 100%;
+  height: 4px;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+#menu a:hover {
+  color: #203346;
+}
+
+p {
+  margin: auto;
+  font-weight: normal;
+  font-size: large;
+}
+
+.dropdwonmenu {
+  position: absolute;
+  display: none;
+  height: 70px;
+  width: auto;
+  color: #203346;
+}
+
+.dropdwonmenu a {
+  display: block;
+  color: #203346;
+}
+
+.dropdwon:hover .dropdwonmenu {
+  display: block;
+  background: linear-gradient(to bottom, #D96D1E, #2D2C71);
+
+
+}
+
+#matri {
+  color: #39316B;
+  border: 1px solid #39316B;
+}
+
+#matri:hover {
+  background-color: #39316B;
+  border: 1px solid #93523F;
+  color: #0EA05F;
+  transition: .5s;
+}
+
+
+
+
+
+.carousel-item {
+  width: 100%;
+  height: 620px;
+}
+
+#NOTEMDES {
+  color: #203346;
+  padding: 5px;
+  font-size: larger;
+}
+
+#NOTEMDES span {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/*noticias em Destaque*/
+.card-custom-height {
+  height: 500px;
+  /* ou maior, se necessário */
+}
+
+
+.Destaque{
+display: flex;
+justify-content:space-between;
+gap: 5px;
+height: 590px;
+width: 100%;
+}
+
+main {
+width: 95%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_conteinar {
+  width: 60%;
+  height: 100%;
+}
+
+.card {
+  width: 95%;
+}
+
+#fristDestaque {
+  width: 100%;
+  height: 100%;
+}
+
+#segImgDest {
+  width: 60%;
+}
+
+#fristDeConteiner {
+  width: 60%;
+  height: 590px;
+}
+
+.IMG_DEST {
+  background-image: url(../img/04.jpg);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  /* altura da div, ajuste conforme necessário */
+  background-position: center;
+  background-size: contain;
+  /* para ajustar a imagem dentro da div */
+  background-repeat: no-repeat;
+  /* para não repetir a imagem */
+}
+
+
+
+
+#row2{
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#img_size {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+
+/*roda pé*/
+footer {
+  color: #203346;
+  background: linear-gradient(to left, #D96D1E, #2D2C71);
+  background-attachment: fixed;
+  display: block;
+  justify-content: center;
+}
+
+footer h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #203346;
+}
+
+#conte {
+  display: flex;
+}
+
+#contacte {
+  text-align: center;
+}
+
+#contacte ul {
+  list-style-type: none;
+}
+
+#rede {
+  display: flex;
+  color: #203346;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+#rede #redes ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
+
+#rede ul li {
+  padding: 10px;
+}
+
+#redes {
+  text-align: right;
+}

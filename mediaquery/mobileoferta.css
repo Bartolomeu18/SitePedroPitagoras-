@@ -1,0 +1,110 @@
+#btn-mobile {
+    background-color: #D46B20;
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    z-index: 1;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+
+  }
+  #btn-mobile.btnactive{
+    background-color:white;
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    z-index: 100;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    transition: .5s;
+  
+  }
+  #menu ul {
+    display: none;
+    padding: 10px;
+    padding-top: 10px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color:  rgba(0, 0, 0, 0.739);
+    z-index: 1;
+  
+  }
+  #menu a:hover {
+    color: #0EA05F;
+  }
+  #menu li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  #menu.active ul {
+    display: block;
+  
+  }
+
+  
+  /*welcome*/
+  
+  #welcome {
+    display: block;
+  
+    margin-top: 100px;
+    
+  
+  }
+  
+  #welcome h3 {
+    color: #2D2C71;
+  }
+  
+  #img2 {
+    display: none;
+  }
+  
+  #welcome img {
+    border: 3px transparent #F6BB3D;
+    width: 80%;
+  
+    box-shadow: 0px 10px 2em rgb(114, 114, 114);
+    transition: 0.5s;
+  }
+  
+  #img1:hover img {
+    transform: scale(0.8);
+  }
+  
+  #welcome #cont {
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  #cont #quat {
+    display: flex;
+    justify-content: center;
+  margin-bottom: 500px;
+  }
+  
+  #quat h2 {
+    color: #2D2C71;
+    padding: 29x;
+  }
+  
+  #quat .quant {
+    padding: 29px;
+  }
+  
+  /* neste arquivo contén estio da secretaria*/
+  /*começa aqui*/
+  .secre {
+    display: block;
+  
+  }

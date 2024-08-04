@@ -1,0 +1,30 @@
+
+
+
+.conteiner {
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 18%;
+    border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0.153);
+}
+.conteiner-header{
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    width:100% ;
+}
+.conteiner-body{
+    height: 100%;
+    width: 100%;
+    align-items: right;
+    border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0.153);
+    padding-top: 10px;
+    display: block;
+}
+input{
+  outline: none;
+}
