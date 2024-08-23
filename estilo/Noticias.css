@@ -167,14 +167,13 @@ p {
 }
 
 #NOTEMDES {
+  margin-top: 3px;
   color: #203346;
-  padding: 5px;
   font-size: larger;
 }
 
 #NOTEMDES span {
   font-weight: bold;
-  font-size: larger;
 }
 
 /*noticias em Destaque*/
@@ -216,9 +215,13 @@ width: 95%;
 #segImgDest {
   width: 60%;
 }
+.segDestaque{
+  display: flex;
+  width: 55%;
 
+}
 #fristDeConteiner {
-  width: 60%;
+  width: 70%;
   height: 590px;
 }
 
